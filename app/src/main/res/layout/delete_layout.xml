@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvDelete"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="DELETE"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="#FF0099"
+        android:textSize="22sp"
+        android:textColor="#FFF"/>
+
+</LinearLayout>

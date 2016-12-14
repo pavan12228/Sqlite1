@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvSearch"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Search"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="#FF0099"
+        android:textSize="22sp"
+        android:textColor="#FFF"/>
+    <LinearLayout
+        android:id="@+id/llData"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/etphone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Enter phone"
+            android:inputType="phone"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tvUpdate"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="UPDATE"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="#FF0099"
+            android:textSize="22sp"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+</LinearLayout>
